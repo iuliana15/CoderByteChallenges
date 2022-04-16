@@ -27,6 +27,7 @@ public class CodelandUsernameValidation {
         Pattern p = Pattern.compile("^[a-zA-Z][a-zA-Z0-9\\_]+[^\\_]");
         Matcher m = p.matcher(str);
         return m.matches() ? "true" : "false";
+        
     }
 
     public static void main(String[] args) {
@@ -34,5 +35,4 @@ public class CodelandUsernameValidation {
         System.out.println(UsernameValidation("..ughd13.."));
 
     }
-
 }

@@ -21,6 +21,7 @@ import java.io.*;
 public class CodelandUsernameValidation {
 
     public static String UsernameValidation(String str) {
+        
         if (str.length() < 4 || str.length() > 25) {
             return "false";
         }
@@ -31,6 +32,7 @@ public class CodelandUsernameValidation {
     }
 
     public static void main(String[] args) {
+        
         System.out.println(UsernameValidation("iulia"));
         System.out.println(UsernameValidation("..ughd13.."));
 

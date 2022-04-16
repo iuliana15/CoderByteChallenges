@@ -21,7 +21,6 @@ import java.io.*;
 public class CodelandUsernameValidation {
 
     public static String UsernameValidation(String str) {
-        // code goes here  
         if (str.length() < 4 || str.length() > 25) {
             return "false";
         }

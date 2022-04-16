@@ -1,5 +1,9 @@
 package codelandusernamevalidation;
 
+import java.util.*;
+import java.util.regex.*;
+import java.io.*;
+
 /**
  * Have the function UsernameValidation(str) take the str parameter
  * being passed and determine if the string is a valid username according to the
@@ -13,9 +17,6 @@ package codelandusernamevalidation;
  * If the username is valid then your program should return the string true,
  * otherwise return the string false.
  */
-import java.util.*;
-import java.util.regex.*;
-import java.io.*;
 
 public class CodelandUsernameValidation {
 

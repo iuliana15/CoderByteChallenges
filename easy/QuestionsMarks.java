@@ -38,7 +38,7 @@ public class QuestionsMarks {
     public static void main(String[] args) {
 
         System.out.println(Questions("9??1??9??1??9"));        
-        System.out.println(Questions("arrb6???4xxbl5???eee5" ));
+        System.out.println(Questions("arrb6???4xxbl5???eee5"));
 
     }
 
